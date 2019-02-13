@@ -59,11 +59,6 @@
     border: none;
 }
 
-.objects .panel-body {
-    overflow-y: scroll;
-    max-height: 70rem;
-}
-
 .objects .panel-title a {
     padding: 12px 15px;
     display: block;
@@ -75,32 +70,6 @@
 
 .objects .panel-heading {
     padding: 0;
-}
-
-.navbar-nav.menu li .objects .panel-body a {
-	color: #555;
-}
-
-.navbar-nav.menu li .objects .panel-body a:hover {
-	background: none;
-}
-
-.list-group-item-heading strong {
-    display:inline;
-}
-
-.list-group-item-heading strong:after {
-    content:"\a";
-    white-space: pre;
-}
-
-.list-group-item img {
-    height: 30rem;
-    margin: 0 auto;
-}
-
-.yamm-fw .dropdown-menu {
-    margin-left: 415px;
 }
 
 /* Green */
@@ -151,7 +120,7 @@
 	 }
 
 .navbar-nav.menu li a {
-	color: #fff;
+	color: #fff /*!important*/;
 }
 
 .navbar-nav.menu li a:hover {

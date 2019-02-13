@@ -59,11 +59,6 @@
     border: none;
 }
 
-.objects .panel-body {
-    overflow-y: scroll;
-    max-height: 70rem;
-}
-
 .objects .panel-title a {
     padding: 12px 15px;
     display: block;
@@ -77,30 +72,30 @@
     padding: 0;
 }
 
-.navbar-nav.menu li .objects .panel-body a {
-	color: #555;
+.apartments_tabs {
+	margin-left: 15%;
+    font-size: 2rem;
+    width: 90%;
+    margin: 10px auto;
 }
 
-.navbar-nav.menu li .objects .panel-body a:hover {
-	background: none;
+.apartments_tabs > li > a {
+	margin: 0 0.5rem;
 }
 
-.list-group-item-heading strong {
-    display:inline;
+#apartments_tabs {
+	margin-left: 15%;
+    font-size: 2rem;
+    width: 90%;
+    margin: 10px auto;
 }
 
-.list-group-item-heading strong:after {
-    content:"\a";
-    white-space: pre;
+.apartments_tabs a {
+	color: white;
 }
 
-.list-group-item img {
-    height: 30rem;
-    margin: 0 auto;
-}
-
-.yamm-fw .dropdown-menu {
-    margin-left: 415px;
+.objects .dropdown-toggle.btn-success {
+	font-weight: bold;
 }
 
 /* Green */
@@ -151,7 +146,7 @@
 	 }
 
 .navbar-nav.menu li a {
-	color: #fff;
+	color: #fff /*!important*/;
 }
 
 .navbar-nav.menu li a:hover {
