@@ -103,6 +103,10 @@
     margin-left: 415px;
 }
 
+.collapse.in .yamm-fw .dropdown-menu {
+    margin-left: 0;
+}
+
 /* Green */
 .btn_new_apartments a {
 	background-color: #43ac6acc !important;
