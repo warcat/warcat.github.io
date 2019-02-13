@@ -1,0 +1,451 @@
+.row.floor {
+    margin: 0;
+}
+
+.floor-selector {
+    position: relative;
+    float: left;
+    cursor: pointer;
+    border: 1px solid greenyellow;
+    background-color: greenyellow;
+    opacity: 0.55;
+}
+
+.floor-selector-clear {
+    min-width: 48px;
+    font-size: 1.5em;
+}
+
+.floor-selector-clear.link {
+    border-bottom: 1px dashed;
+    /*text-decoration: underline;*/
+}
+
+.floor-selector-clear:hover {
+    text-decoration: none;
+}
+
+.floor-selector-clear.active {
+    font-size: 2.0em;
+    font-weight: bold;
+    color: #282DB4;
+}
+
+.floor-selector.disabled {
+    position: relative;
+    float: left;
+    cursor: default;
+    border: none;
+}
+
+.floor-selector.disabled {
+    opacity: 0;
+}
+
+.floor-selector.disabled:hover {
+    opacity: 0;
+}
+
+.floor-selector.active {
+    background-color: greenyellow;
+    opacity: 0.55;
+}
+
+.floor-selector:hover {
+    background-color: greenyellow;
+    opacity: 0.75;
+}
+
+.floor-selector.sold {
+    background-color: #F57070;
+    opacity: 0.55;
+    border: 1px solid #F57070;
+    cursor: default;
+}
+/* Лушпы, 26 */
+.floor-korp_26 {
+	height: 47px;
+    width: 370px;
+    top: 160px;
+    left: 10px;
+    margin: 1px 1px;
+}
+
+.building-korp_26 {
+    min-width: 800px;
+    max-width: 1600px;
+}
+
+.img-thumbnail.building-korp_26 {
+  min-height: 740px;
+  }
+
+  /* Лушпы, 22_1 */
+.floor-korp_22_1 {
+	height: 35px;
+    width: 420px;
+    top: 120px;
+    left: 15px;
+    margin: 3px 4px;
+}
+
+.building-korp_22_1 {
+    min-width: 900px;
+    max-width: 1000px;
+}
+
+.img-thumbnail.building-korp_22_1 {
+    min-height: 610px;
+}
+  
+  
+/* Лушпы, 22 */
+.floor-korp_22 {
+    height: 50px;
+    width: 430px;
+    top: 105px;
+    left: 120px;
+    margin: 1px 1px;
+}
+
+.building-korp_22 {
+    min-width: 600px;
+    max-width: 2000px;
+}
+
+.img-thumbnail.building-korp_22 {
+  min-height: 670px;
+  }
+/* Лушпы, 21 */
+.floor-korp_21 {
+    height: 50px;
+    width: 430px;
+    top: 145px;
+    left: 90px;
+    margin: 3px 4px;
+}
+
+.building-korp_21 {
+    min-width: 585px;
+    max-width: 2000px;
+}
+
+.img-thumbnail.building-korp_21 {
+  min-height: 800px;
+  }
+
+/* Лушпы, 29 */
+.floor-lushpi-29 {
+    height: 23px;
+    width: 181px;
+    top: 120px;
+    left: 200px;
+    margin: 3px 4px;
+}
+
+.building-lushpi-29 {
+    min-width: 978px;
+    max-width: 978px;
+}
+
+.img-thumbnail.building-lushpi-29 {
+    min-height: 550px;
+}
+
+/* Черновола, 51/1 */
+.floor-obj_hernovola {
+    height: 28px;
+    width: 225px;
+    top: 90px;
+    left: 115px;
+    margin: 3px 4px;
+}
+
+.building-obj_hernovola {
+    min-width: 730px;
+    max-width: 730px;
+}
+
+.img-thumbnail.building-obj_hernovola {
+    min-height: 495px;
+}
+
+
+/* Харьковская, 8 */
+.floor-obj_korp_8 {
+      height: 28px;
+      width: 335px;
+      top: 120px;
+      left: 170px;
+      margin: 3px 4px;
+}
+
+.building-obj_korp_8 {
+    min-width: 1000px;
+    max-width: 1000px;
+}
+
+.img-thumbnail.building-obj_korp_8 {
+    min-height: 495px;
+}
+
+
+/* Харьковская, 9 */
+.floor-obj_korp_9 {
+    height: 28px;
+    width: 360px;
+    top: 110px;
+    left: 130px;
+    margin: 4px 4px;
+}
+
+.building-obj_korp_9 {
+    min-width: 1000px;
+    max-width: 1000px;
+}
+
+.img-thumbnail.building-obj_korp_9 {
+    min-height: 600px;
+}
+
+ /* Харьковская, 10 */
+.floor-korp_10 {
+      height: 28px;
+      width: 335px;
+      top: 120px;
+      left: 130px;
+      margin: 3px 4px;
+}
+
+.building-korp_10 {
+    min-width: 994px;
+    max-width: 994px;
+}
+
+.img-thumbnail.building-korp_10 {
+    min-height: 555px;
+}
+  /* Лушпы, 30 */
+.floor-korp_30 {
+      height: 22px;
+      width: 280px;
+      top: 100px;
+      left: 30px;
+      margin: 3px 4px;
+}
+
+.building-korp_30 {
+    min-width: 1000px;
+    max-width: 1000px;
+}
+
+.img-thumbnail.building-korp_30 {
+    min-height: 470px;
+}
+
+/* Лушпы, 31 */
+.floor-obj_korp31 {
+    height: 43px;
+    width: 285px;
+    top: 160px;
+    left: 200px;
+    margin: 3px 4px;
+}
+
+.building-obj_korp31 {
+    min-width: 1000px;
+    max-width: 2000px;
+}
+
+.img-thumbnail.building-obj_korp31 {
+  min-height: 752px;
+  }
+
+
+
+/* Харьковская, 25_1*/
+.floor-korp_25_1 {
+    height: 50px;
+    width: 450px;
+    top: 160px;
+    left: 35px;
+    margin: 3px 4px;
+}
+
+.building-korp_25_1 {
+    min-width: 1000px;
+    max-width: 1000px;
+}
+
+.img-thumbnail.building-korp_25_1 {
+    min-height: 800px;
+}
+
+
+
+/* Лушпы, 25_2 */
+.floor-korp_25_2 {
+     height: 53px;
+    width: 259px;
+    top: 155px;
+    left: 320px;
+    margin: 3px 4px;
+}
+
+.building-korp_25_2 {
+    min-width: 900px;
+    max-width: 2000px;
+}
+
+.img-thumbnail.building-korp_25_2 {
+  min-height: 800px;
+  }
+
+/* Лушпы, 4 */
+.floor-korp_4 {
+    height: 47px;
+    width: 430px;
+    top: 220px;
+    left: 160px;
+    margin: 3px 4px;
+}
+
+.building-korp_4 {
+    min-width: 800px;
+    max-width: 2000px;
+}
+
+.img-thumbnail.building-korp_4 {
+  min-height: 800px;
+  }
+
+/* Лушпы, 4/1 */
+.floor-korp_4_1 {
+    height: 48px;
+    width: 440px;
+    top: 193px;
+    left: 254px;
+    margin: 3px 4px;
+}
+
+.building-korp_4_1 {
+    min-width: 800px;
+    max-width: 2000px;
+}
+
+.img-thumbnail.building-korp_4_1 {
+  min-height: 850px;
+  }
+
+/* Лушпы, 28 */
+.floor-korp_28 {
+    height: 54px;
+    width: 317px;
+    top: 215px;
+    left: 95px;
+    margin: 3px 4px;
+}
+
+.building-korp_28 {
+    min-width: 800px;
+    max-width: 1100px;
+}
+
+.img-thumbnail.building-korp_28 {
+  min-height: 925px;
+  }
+
+  /* Лушпы, 27 */
+.floor-korp_27 {
+height: 28px;
+    width: 340px;
+    top: 100px;
+    left: 5px;
+    margin: 3px 4px;
+}
+
+.building-korp_27 {
+    min-width: 1100px;
+    max-width: 1000px;
+}
+
+.img-thumbnail.building-korp_27 {
+    min-height: 500px;
+}
+
+
+/* Лушпы, 5 */
+.floor-korp_5 {
+    height: 45px;
+    width: 440px;
+    top: 193px;
+    left: 204px;
+    margin: 3px 4px;
+}
+
+.building-korp_5 {
+    min-width: 700px;
+    max-width: 1500px;
+}
+
+.img-thumbnail.building-korp_5 {
+  min-height: 770px;
+  }
+
+
+
+  /* Лушпы, 21 */
+.floor-korp_27_kom {
+height: 46px;
+    width: 420px;
+    top: 120px;
+    left: 70px;
+    margin: 3px 4px;
+}
+
+.building-korp_27_kom {
+    min-width: 1100px;
+    max-width: 800px;
+}
+
+.img-thumbnail.building-korp_27_kom {
+    min-height: 500px;
+}
+
+
+
+  /* Лушпы, 21/1 */
+.floor-korp_21_1 {
+height: 46px;
+    width: 420px;
+    top: 120px;
+    left: 70px;
+    margin: 3px 4px;
+}
+
+.building-korp_21_1 {
+    min-width: 550px;
+    max-width: 550px;
+}
+
+.img-thumbnail.building-korp_21_1 {
+    min-height: 700px;
+}
+/* Дом (шаблон, не удалять!) */
+.floor- {
+    height: 46px;
+    width: 420px;
+    top: 120px;
+    left: 70px;
+    margin: 3px 4px;
+}
+
+.building- {
+    min-width: 750px;
+    max-width: 750px;
+    min-height: 550px;
+}
+
+.img-lg {
+    cursor: pointer;
+}

@@ -1,0 +1,93 @@
+﻿$(document).ready(function () {
+    var data = {};
+    data['e9p1'] = { et: '9', pr: '5400', left: 3, count: 3 };
+    data['e8p1'] = { et: '8', pr: '5700', left: 2, count: 3 };
+    data['e7p1'] = { et: '7', pr: '6100', left: 3, count: 3 };
+    data['e6p1'] = { et: '6', pr: '6200', left: 1, count: 3 };
+    data['e5p1'] = { et: '5', pr: '6300', left: 3, count: 3 };
+    data['e4p1'] = { et: '4', pr: '6400', left: 2, count: 3 };
+    data['e3p1'] = { et: '3', pr: '6200', left: 0, count: 3 };
+    data['e2p1'] = { et: '2', pr: '5800', left: 3, count: 3 };
+    data['e1p1'] = { et: '1', pr: '5500', left: 3, count: 3 };
+
+    data['e9p2'] = { et: '9', pr: '5400', left: 2, count: 4 };
+    data['e8p2'] = { et: '8', pr: '5600', left: 1, count: 4 };
+
+    $('#building').svg({ onLoad: drawIntro });
+    function drawIntro(svg) {
+        drawFloor(svg, 215, 230, 'e9p1');
+        drawFloor(svg, 215, 262, 'e8p1');
+        drawFloor(svg, 215, 294, 'e7p1');
+        drawFloor(svg, 215, 326, 'e6p1');
+        drawFloor(svg, 215, 358, 'e5p1');
+        drawFloor(svg, 215, 390, 'e4p1');
+        drawFloor(svg, 215, 422, 'e3p1');
+        drawFloor(svg, 215, 454, 'e2p1');
+        drawFloor(svg, 215, 486, 'e1p1');
+
+        drawFloor(svg, 307, 220, 'e9p2');
+        drawFloor(svg, 307, 252, 'e8p2');
+    }
+
+    function drawFloor(svg, x, y, id) {
+        var flatHW = 30;
+        var g = svg.group({ id: id, transform: 'translate(' + x + ' ' + y + ') rotate(-0)' });
+        var descr = data[id];
+        if (descr == undefined) return;
+        var busy = descr.count - descr.left;
+        for (var i = 0; i < descr.count; i++) {
+            if (busy > 0) {
+                svg.rect(g, i * flatHW, 0, flatHW, flatHW, { fill: '#ff0000', opacity: '0.5' });
+            } else {
+                svg.rect(g, i * flatHW, 0, flatHW, flatHW, { fill: '#00ff00', opacity: '0.5' });
+            }
+            busy--;
+        }
+    }
+
+    $('g').css('cursor', 'pointer');
+    $('g').each(function () {
+        var id = $(this).attr('id');
+        var descr = data[id];
+        var cont = '<strong>Этаж</strong>: ' + descr.et + '<br/><strong>Цена</strong>: от ' + descr.pr + ' грн/м2<br/><strong>Квартир доступно</strong>: ' + descr.left;
+        $(this).popover({ content: cont, trigger: 'hover', container: 'body', placement: 'left', html: true });
+    });
+
+    $('g').click(function () {
+        var id = $(this).attr('id');
+        $("#flat").html('');
+        var url = "flat/" + id + ".html";
+        var targetContent = $("#flat").load(url);
+        $.fancybox(targetContent, {
+            maxWidth: 800,
+            maxHeight: 400,
+            fitToView: true,
+            width: '70%',
+            height: '70%',
+            autoSize: false,
+            closeClick: false,
+            openEffect: 'none',
+            closeEffect: 'none'
+        }); // fancybox
+        return false; // prevent default
+    });
+
+    $('.flat-open-btn').click(function () {
+        var url = "/flat";
+        
+        $.fancybox.showLoading();
+
+        $.ajax({
+            type: "GET",
+            cache: false,
+            url: url,
+            data: $(this).serializeArray(),
+            success: function (data) {
+                $.fancybox(data);
+            }
+        });
+        return false;
+    });
+
+
+});

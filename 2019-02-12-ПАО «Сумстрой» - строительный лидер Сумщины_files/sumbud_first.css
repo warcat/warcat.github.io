@@ -1,0 +1,536 @@
+.navbar-ex1-collapse .nav.navbar-nav.menu {
+    padding-left: 400px;
+}
+
+.collapse.in.navbar-ex1-collapse .nav.navbar-nav.menu {
+    padding-top: 40px;
+    padding-left: 180px;
+}
+
+.caret-right {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 4px;
+    margin-top: -2px;
+    vertical-align: middle;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-left: 4px solid;
+    border-bottom: 4px solid transparent;
+}
+
+/*!
+ * Yamm!3 - Yet another megamenu for Bootstrap 3
+ * http://geedmo.github.com/yamm3
+ * 
+ * @geedmo - Licensed under the MIT license
+ */
+.yamm .nav,
+.yamm .collapse,
+.yamm .dropup,
+.yamm .dropdown {
+  position: static;
+}
+.yamm .container {
+  position: relative;
+}
+.yamm .dropdown-menu {
+  left: auto;
+}
+.yamm .yamm-content {
+  padding: 20px 30px;
+}
+.yamm .dropdown.yamm-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+}
+
+.objects .panel-group {
+    margin-bottom: 0;
+}
+
+.objects .panel-group .panel+.panel {
+    margin-top: 0;
+    border: none;
+}
+
+.objects .panel {
+    border: none;
+}
+
+.objects .panel-title a {
+    padding: 12px 15px;
+    display: block;
+    text-decoration: none;
+    background-color: #2960a3;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.objects .panel-heading {
+    padding: 0;
+}
+
+.apartments_tabs {
+	margin-left: 15%;
+    font-size: 2rem;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.apartments_tabs > li > a {
+	margin: 0 0.5rem;
+}
+
+#apartments_tabs {
+	margin-left: 15%;
+    font-size: 2rem;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.apartments_tabs a {
+	color: white;
+}
+
+.objects .dropdown-toggle.btn-success {
+	font-weight: bold;
+}
+
+/* Green */
+.btn_new_apartments a {
+	background-color: #43ac6acc !important;
+	border-radius: 0.5rem !important;
+	border: 0.15rem solid #4cae4c;
+}
+
+.btn_new_apartments a:hover, .btn_new_apartments.active a {
+	background-color: #4cae4c !important;;
+}
+
+/* Red */
+.btn_complete_apartments a {
+	background-color: #d9534fcc !important;
+	border-radius: 0.5rem !important;
+	border: 0.15rem solid #d43f3a;
+}
+
+.btn_complete_apartments a:hover, .btn_complete_apartments.active a {
+	background-color: #d43f3a !important;
+}
+
+/* Orange */
+.btn_commercial_apartments a {
+	background-color: #f0ad4ecc !important;
+	border-radius: 0.5rem !important;
+	border: 0.15rem solid #eea236;
+}
+
+.btn_commercial_apartments a:hover, .btn_commercial_apartments.active a {
+	background-color: #f0ad4e !important;
+}
+
+
+.navbar-default {
+	font-size: 16px;
+	background-color: #2960a3;
+	border-color: #E7E7E7;
+}
+
+.navbar-brand {
+	color: #fff !important;
+	font-size: 30px;
+	font-family: 'franklin gothic heavy' !important;
+	 font-style: italic;
+	 }
+
+.navbar-nav.menu li a {
+	color: #fff /*!important*/;
+}
+
+.navbar-nav.menu li a:hover {
+	background-color: #428bca /*!important*/;
+}
+
+.navbar-nav.menu > .open > a {
+	color: #fff !important;
+	background-color: #428bca !important;
+}
+
+.dropdown-menu {
+	background-color: #2960a3 !important;
+}
+
+.main-page {
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgb(238, 238, 238); /* Fall-back for browsers that don't
+	 support rgba */
+	background: rgba(238, 238, 238, 0);
+	border-radius: 12px;
+    
+}
+
+.news {
+    background-color: #eeeeee;
+}
+
+.img_dom {
+	z-index: 10000;
+	position: relative;
+	top: 10px;
+	left: -100px;
+}
+
+.set_sm_img {
+	margin-top: -20px;
+}
+
+.top1 {
+	margin-top: 10px;
+}
+
+.top2 {
+	margin-top: 20px;
+}
+
+.top3 {
+	margin-top: 30px;
+}
+
+#building {
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Footer */
+footer a {
+	color: #428bca !important;
+}
+
+footer a:hover {
+	color: #2960a3 !important;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer .menu_bottom {
+	border-top: #696969 solid 1px;
+	padding-top: 16px;
+}
+
+footer .menu_bottom ul li:first-child {
+	font-size: 20px;
+}
+
+footer ul li {
+	padding-bottom: 8px;
+}
+
+footer .phone {
+	font-size: 1.75em;
+	font-weight: bold;
+	color: white !important;
+}
+
+footer .phone span {
+	font-weight: normal;
+}
+
+footer .contacts a {
+	color: white !important;
+	font-size: 1.5em;
+}
+
+footer .contacts a:hover {
+	color: white !important;
+}
+/* / Footer*/
+
+dl.flat-props > dt {
+	color: #2960a3;
+	width: 200px;
+	padding-right: 16px;
+}
+
+dl.building-dates > dt {
+	color: #2960a3;
+    width: 250px;
+    text-align: left;
+}
+
+dl.building-dates > dd {
+    margin-left: 0;
+}
+
+.no-wrap {
+	white-space: nowrap;
+}
+
+.progress {
+	height: auto;
+}
+
+.text-big {
+	font-size: 1.5em;
+}
+
+.unvisible {
+	display: none;
+}
+
+.apartment-selector {
+	border-radius: 24px;
+}
+
+a.activator {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+a.activator:hover {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+.btn-apartment {
+    min-width: 40px;
+    max-width: 75px;
+    min-height: 30px;
+    padding: 4px;
+    margin: 0;
+}
+
+td.no-wrap {
+    vertical-align: middle;
+    width: 70px;
+}
+
+.apartment-price {
+    font-size: 1.5em;
+}
+
+h1 {
+	font-family: 'franklin gothic heavy', cursive;
+	 font-style: italic;
+    color: #2960a3; 
+text-shadow: 0 1px 0 #ccc, 0 2px 0 #ededed, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 5px 5px rgba(0,0,0,.2), 0 10px 10px rgba(0,0,0,.15);
+}
+
+h2 {
+	font-family: 'franklin gothic heavy', cursive;
+	 font-style: italic;
+    color: #2960a3; 
+text-shadow: 0 1px 0 #ccc, 0 2px 0 #ededed, 0 3px 0 #bbb;/* 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 5px 5px rgba(0,0,0,.2), 0 10px 10px rgba(0,0,0,.15);*/
+}
+
+.nav-gallery {
+    background-color: white;
+    margin-top: 60px;
+}
+
+.panel.panel-body.news {
+	background: rgb(240, 246, 250);
+	background: rgba(240, 246, 250, 0.9);
+	border-radius: 8px;
+	text-align: justify;
+}
+
+.news > h2 {
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+.news > h4 {
+	border-bottom: 1px dashed black;
+}
+
+.news > .help-block {
+	text-align: right;
+}
+
+.panel.panel-body.news p {
+	font-size: 15px;
+}
+
+.att {
+	position: absolute;
+	right: 4px;
+    top: 48px;
+    z-index: 7000;
+    width: 128px;
+    height: 128px;
+}
+
+.navbar {
+    z-index: 6001;
+}
+
+.feedback {
+    font-size: 1.75em;
+    padding-top: 30px;
+}
+
+.feedback > a {
+    color: white !important;
+}
+
+.object_list .list-group-item {
+    background-color: #AEF5D3;
+}
+
+.object_list a.list-group-item:hover, .object_list a.list-group-item:focus {
+    background-color: #D6FFEB;
+}
+
+.btn-apartments {
+    margin-top: 36px;
+}
+
+.btn-apartments-menu {
+    font-size: 1.5em !important;
+    margin-top: -10px;
+}
+
+.navbar-default .navbar-nav>li>.btn-success:hover, .navbar-default .navbar-nav>li>.btn-success:focus {
+	background-color: #388f58 !important;
+}
+
+.navbar-default .navbar-nav>li>.btn-warning:hover, .navbar-default .navbar-nav>li>.btn-warning:focus {
+	background-color: #d08002 !important;
+}
+
+a.navbar-brand {
+    margin-top: -12px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.clearfix {
+		margin-bottom: 80px;
+	}
+}
+
+.rooms-selector > h4 {
+    color: #00008b;
+}
+
+.full-text {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h4.bold {
+    font-weight: bold;
+}
+
+.badge {
+    /*vertical-align: super;*/
+    padding: 10px;
+    margin: 4px;
+}
+
+.badge.disabled {
+    background-color: rgba(0,0,0,0);
+    background-color: transparent;
+	
+}
+
+.badge.badge-danger {
+    background-color: #f04124;
+    color: white;
+	font-size: 12px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.badge.badge-success {
+    background-color: #43ac6a;
+    color: #ffffff;
+}
+
+.badge.badge-primary {
+    background-color: #282DB4;
+    color: #ffffff;
+}
+
+.btn-primary {
+    /*background-color: #282DB4;*/
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+.rooms-selector > h4, .rooms-selector > .btn-group > a {
+    font-weight: bold;
+}
+
+.objects_menu {
+    position: fixed !important;
+    top: 45px;
+    left: 0 !important;
+    width: 100%;
+    max-height: 500px;
+    overflow-y: auto;
+    padding-bottom: 50px;
+}
+
+.navbar-nav.menu li .objects_menu a {
+    color: #555555;
+}
+
+.navbar-nav.menu li .objects_menu a:hover {
+    background-color: #ffffff;
+}
+
+.container.main-page .row div:first-child {
+    margin-bottom: 15%;
+}
+
+.panel-object-buttons {
+    margin-top: 22%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    background-color: rgba(221, 221, 211, 0.8);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+@media (max-width:1451px) {
+    .navbar-right {
+        /*margin-top: 40px;*/
+        margin-left: 145px !important;
+    }
+    .navbar-right .objects:first-child {
+        margin-left: 240px !important;
+    }
+}
+
+@media (max-width:767px) {
+    .navbar-right .objects {
+        margin-top: 40px;
+        margin-left: 0px !important;
+    }
+
+    .navbar-collapse {
+        max-height: 450px;
+    }
+}
+
+#calculator h5 {
+    font-weight: bold;
+}
+
+#calculator #newPrice {
+    color: #2960a3;
+}
+
+.menu_object_header {
+    text-align: center;
+}
